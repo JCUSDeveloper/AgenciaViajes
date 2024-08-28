@@ -1,0 +1,34 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="", class="img-fluid")
+            .col-md-7
+                h1= pagina
+                blockquote.text-justify  
+                    span En Travels US 
+                    | nuestra misión es hacer que cada viaje sea una experiencia inolvidable. Con años de experiencia en el sector turístico, ofrecemos a nuestros clientes un servicio personalizado y exclusivo, diseñado para satisfacer todas sus necesidades de viaje. Desde escapadas de fin de semana hasta aventuras exóticas alrededor del mundo, nuestro equipo de expertos está aquí para ayudarte a planificar el viaje de tus sueños. 
+                blockquote.text-justify  Trabajamos con una amplia red de socios globales para ofrecerte las mejores ofertas en vuelos, alojamiento, y actividades, asegurando que disfrutes de cada momento sin preocupaciones.
+                blockquote.text-justify  
+                    span ¿Por qué elegirnos? 
+                    | Porque creemos que cada viaje es una oportunidad para crear recuerdos únicos. Nos encargamos de todos los detalles, para que tú solo te preocupes por disfrutar.
+            
+    .listado-iconos
+        .container.mt-5.py.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p.text-justify "Tu tranquilidad es nuestra prioridad. Garantizamos la máxima seguridad en todos nuestros servicios para que disfrutes de tu viaje con total confianza y sin preocupaciones."
+                
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p.text-justify "Descubre los destinos más increíbles con nosotros. Te llevamos a lugares únicos, cuidadosamente seleccionados para ofrecerte experiencias inolvidables en cada rincón del mundo."
+                
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p.text-justify "Viajar con nosotros es sinónimo de calidad al mejor precio. Ofrecemos tarifas competitivas para que puedas cumplir tus sueños de viajar sin comprometer tu presupuesto."

@@ -1,0 +1,38 @@
+extends ./layout/index
+
+block slider
+    .slider 
+        h1 Rio de Janeiro 
+        em Aventura
+
+block contenido
+    main.container.mt-5
+    h2.text-center.m-5 Sobre Nosotros
+        .row.mt-5 
+            .col-md-6.mb-5 
+                p.text-justify 
+                    | En
+                    span  Travels US
+                    |   nuestra misión es hacer que cada viaje sea una experiencia inolvidable. Con años de experiencia en el sector turístico, ofrecemos a nuestros clientes un servicio personalizado y exclusivo, diseñado para satisfacer todas sus necesidades de viaje. Desde escapadas de fin de semana hasta aventuras exóticas alrededor del mundo, nuestro equipo de expertos está aquí para ayudarte a planificar el viaje de tus sueños. Trabajamos con una amplia red de socios globales para ofrecerte las mejores ofertas en vuelos, alojamiento, y actividades, asegurando que disfrutes de cada momento sin preocupaciones.
+                p.text-justify 
+                    span ¿Por qué elegirnos? 
+                    |  Porque creemos que cada viaje es una oportunidad para crear recuerdos únicos. Nos encargamos de todos los detalles, para que tú solo te preocupes por disfrutar.
+                p.text-center 
+                    span ¡Viaja con nosotros y descubre un mundo de posibilidades!
+            .col-md-6
+                img(src='/img/inicio_nosotros.jpg', alt="imagen nosotros", class="img-fluid")
+
+        include ./layout/bloque_viajes
+
+    .descuento
+        .container
+            .row 
+                .col-md-6
+                    .contenido 
+                        h3 5% de Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Marzo de 2022 - 28 de Marzo de 2022
+                        p.precio $2,500 USD
+
+    h3.text-center.mt-5 Testimoniales
+    include ./layout/bloque_testimoniales
